@@ -9,7 +9,8 @@ const frontendSkills = [
   { name: 'JavaScript', level: 'Moderately Good', progress: 68 },
   { name: 'Next.JS', level: 'Moderately Good', progress: 65 },
   { name: 'Tailwind CSS', level: 'Moderately Good', progress: 74 },
-  { name: 'React.JS', level: 'Moderately Good', progress: 70 },
+  { name: 'Express.JS', level: 'Moderately Good', progress: 70 },
+  { name: 'MongoDB', level: 'Moderately Good', progress: 70 },
 ];
 
 const SkillCard = ({

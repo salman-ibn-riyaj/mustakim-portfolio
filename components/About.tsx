@@ -67,7 +67,7 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
                 Proficient in{' '}
-                <span className="text-white font-semibold">React.js, Next.js, and Node.js</span>,
+                <span className="text-white font-semibold">React.js, Next.js, Node.js, Express.js, mongodb</span>,
                 I build scalable, high-performance applications.
               </motion.p>
               <motion.p
