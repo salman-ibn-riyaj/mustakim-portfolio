@@ -56,8 +56,8 @@ export default function About() {
               <div className="absolute inset-0 shadow-[inset_0_0_50px_rgba(2,6,23,0.8)] pointer-events-none" />
             </motion.div>
           </div>
-
-          {/* Details */}
+          
+    
           <div>
             <div className="text-gray-300 leading-relaxed mb-10 text-lg space-y-4">
               <motion.p
