@@ -12,6 +12,7 @@
   "author": "Salman Shah",
   "license": "ISC",
   "dependencies": {
+    "@next/third-parties": "^16.2.10",
     "framer-motion": "^11.0.0",
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",
