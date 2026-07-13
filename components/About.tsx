@@ -49,8 +49,8 @@ export default function About() {
             >
               <motion.img
                 style={{ y: imageY }}
-                src="/profile.png"
-                alt="Salman Shah"
+                src="/fardin_portfolio.png"
+                alt="Fardin Khan Kauser"
                 className="w-full h-[120%] object-cover absolute top-[-10%] transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 shadow-[inset_0_0_50px_rgba(2,6,23,0.8)] pointer-events-none" />
@@ -67,8 +67,8 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
                 Proficient in{' '}
-                <span className="text-white font-semibold">React.js, Next.js, Node.js, Express.js, mongodb</span>,
-                I build scalable, high-performance applications.
+                <span className="text-white font-semibold">Google Ads, Meta Ads</span>,
+                I serve with scalable, high-performance projects.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -76,8 +76,8 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Skilled in MongoDB and modern database architectures. I deliver innovative
-                real-time systems and impactful solutions.
+                I create, manage, and optimize paid campaigns to increase leads, sales, and brand visibility.
+My expertise includes audience targeting, campaign optimization, and performance tracking.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -85,8 +85,8 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                Always eager to learn new technologies and build products that provide exceptional
-                user experiences.
+                I continuously improve my skills to stay updated with the latest digital marketing trends.
+My goal is to help businesses achieve sustainable growth through high-performing ad campaigns.
               </motion.p>
             </div>
 

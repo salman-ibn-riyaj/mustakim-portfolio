@@ -5,7 +5,7 @@ import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import Magnetic from '@/components/animations/Magnetic';
 
 export default function Navbar() {
-  const navItems = ['Home', 'About', 'Tech Stack', 'Skills', 'Projects', 'Qualification', 'Contact Me'];
+  const navItems = ['Home', 'About', 'Skills', 'Qualification', 'Contact Me'];
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -38,10 +38,10 @@ export default function Navbar() {
         <Magnetic>
           <a href="#home" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-full overflow-hidden border border-white/20 group-hover:border-blue-500 transition-colors">
-              <img src="/profile.png" alt="Salman Shah" className="w-full h-full object-cover" />
+              <img src="/fardin_portfolio.png" alt="Fardin Khan Kauser" className="w-full h-full object-cover" />
             </div>
             <span className="text-xl font-bold text-white tracking-tighter hidden sm:block">
-              Salman Shah
+              Fardin Khan Kauser
             </span>
           </a>
         </Magnetic>

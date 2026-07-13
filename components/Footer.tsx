@@ -1,9 +1,10 @@
 'use client';
 
-import { Mail } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+
+import { FaFacebook,FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import Magnetic from '@/components/animations/Magnetic';
+import { BiLogoGmail } from 'react-icons/bi';
 
 export default function Footer() {
   return (
@@ -42,10 +43,9 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           className="space-y-4"
         >
-          <h2 className="text-2xl font-bold text-white tracking-tight">Salman Shah</h2>
+          <h2 className="text-2xl font-bold text-white tracking-tight">Fardin Khan Kauser</h2>
           <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-            Frontend Developer passionate about creating beautiful, interactive, and
-            high-performance web experiences.
+            I'm an aspiring Google Ads & Meta Ads Specialist with a strong interest in performance marketing and digital advertising. 
           </p>
         </motion.div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
         >
           <h3 className="text-white font-semibold mb-6 tracking-wide">Quick Links</h3>
           <ul className="space-y-4 text-gray-400 text-sm">
-            {['About', 'Projects', 'Qualification', 'Contact Me'].map((item) => (
+            {['About', 'Qualification', 'Contact Me'].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -84,25 +84,25 @@ export default function Footer() {
           <div className="flex gap-4">
             <Magnetic>
               <a
-                href="https://github.com/salman-ibn-riyaj"
+                href="https://www.facebook.com/profile.php?id=61584454260870"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-10 h-10 bg-slate-900 border border-white/10 text-gray-400 rounded-full hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-colors shadow-lg"
               >
-                <FaGithub size={18} />
+                <FaFacebook size={18} />
               </a>
             </Magnetic>
             <Magnetic>
               <a
-                href="https://www.linkedin.com/in/salman-ibn-riyaj/"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kouserk219@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-10 h-10 bg-slate-900 border border-white/10 text-gray-400 rounded-full hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-colors shadow-lg"
               >
-                <FaLinkedin size={18} />
+                <BiLogoGmail size={18} />
               </a>
             </Magnetic>
-            <Magnetic>
+            {/* <Magnetic>
               <a
                 href="https://x.com/salmanshahrz"
                 target="_blank"
@@ -121,7 +121,7 @@ export default function Footer() {
               >
                 <Mail size={18} />
               </a>
-            </Magnetic>
+            </Magnetic> */}
           </div>
         </motion.div>
       </div>
@@ -134,7 +134,7 @@ export default function Footer() {
         transition={{ duration: 1, delay: 0.6 }}
         className="text-center text-gray-600 text-xs border-t border-white/5 pt-8 relative z-10"
       >
-        © 2026 Salman Shah. All rights reserved. Built with Next.js, Tailwind CSS &amp; Framer
+        © 2026 Fardin Khan Kauser. All rights reserved. Built with Next.js, Tailwind CSS &amp; Framer
         Motion.
       </motion.div>
     </footer>

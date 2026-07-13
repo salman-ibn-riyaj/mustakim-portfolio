@@ -5,12 +5,13 @@ import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
 import React from 'react';
 
 const frontendSkills = [
-  { name: 'HTML5', level: 'Moderately Good', progress: 72 },
-  { name: 'JavaScript', level: 'Moderately Good', progress: 68 },
-  { name: 'Next.JS', level: 'Moderately Good', progress: 65 },
-  { name: 'Tailwind CSS', level: 'Moderately Good', progress: 74 },
-  { name: 'Express.JS', level: 'Moderately Good', progress: 70 },
-  { name: 'MongoDB', level: 'Moderately Good', progress: 70 },
+  { name: 'GOOGLE ADS', level: 'Expert', progress: 98 },
+  { name: 'Meta Ads', level: 'Expert', progress: 98 },
+  { name: 'CMS', level: 'Expert', progress: 98 },
+  { name: 'WORDPRESS', level: 'Expert', progress: 99 },
+  { name: 'FIVERR', level: 'Expert', progress: 95 },
+  { name: 'UPWORK', level: 'Expert', progress: 90 },
+  
 ];
 
 const SkillCard = ({
