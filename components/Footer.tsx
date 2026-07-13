@@ -65,6 +65,7 @@ export default function Footer() {
                   className="hover:text-blue-400 transition-colors inline-block relative group"
                 >
                   {item}
+                  
                   <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-blue-400 transition-all duration-300 group-hover:w-full" />
                 </a>
               </li>
