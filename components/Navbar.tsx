@@ -70,17 +70,17 @@ export default function Navbar() {
           <motion.span
             animate={isOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-6 h-0.5 bg-white block mb-1.5"
+            className="w-6 h-0.5 bg-gray-900 block mb-1.5"
           />
           <motion.span
             animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
             transition={{ duration: 0.2 }}
-            className="w-6 h-0.5 bg-white block mb-1.5"
+            className="w-6 h-0.5 bg-gray-900 block mb-1.5"
           />
           <motion.span
             animate={isOpen ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-6 h-0.5 bg-white block"
+            className="w-6 h-0.5 bg-gray-900 block"
           />
         </button>
       </div>
