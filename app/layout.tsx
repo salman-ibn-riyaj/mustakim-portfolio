@@ -9,22 +9,22 @@ import Navbar from '@/components/Navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Fardin Khan | Digital Marketing Expert',
+  title: 'Mustakim | Digital Marketing Expert',
   description:
     'I\'m an aspiring Google Ads & Meta Ads Specialist with a strong interest in performance marketing and digital advertising.',
   keywords: ['Digital Marketing', 'Google Ads', 'Meta Ads', 'Performance Marketing'],
-  authors: [{ name: 'Fardin Khan Kauser' }],
+  authors: [{ name: 'Mustakim' }],
   icons: {
-    icon: '/fardin_portfolio.png',
-    shortcut: '/fardin_portfolio.png',
-    apple: '/fardin_portfolio.png',
+    icon: '/mustakim_portfolio.png',
+    shortcut: '/mustakim_portfolio.png',
+    apple: '/mustakim_portfolio.png',
   },
   openGraph: {
-    title: 'Fardin Khan | Digital Marketing Expert',
+    title: 'Mustakim | Digital Marketing Expert',
     description:
       'Frontend Developer passionate about creating beautiful, interactive, and high-performance web experiences.',
     type: 'website',
-    images: [{ url: '/fardin_portfolio.png' }],
+    images: [{ url: '/mustakim_portfolio.png' }],
   },
 };
 

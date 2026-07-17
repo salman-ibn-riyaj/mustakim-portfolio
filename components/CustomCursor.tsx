@@ -51,7 +51,7 @@ export default function CustomCursor() {
     <>
       {/* Outer Ring */}
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 border border-blue-500 rounded-full pointer-events-none z-[9999] mix-blend-difference hidden md:block"
+        className="fixed top-0 left-0 w-8 h-8 border border-emerald-500 rounded-full pointer-events-none z-[9999] mix-blend-difference hidden md:block"
         animate={{
           x: mousePosition.x - 16,
           y: mousePosition.y - 16,
@@ -67,7 +67,7 @@ export default function CustomCursor() {
           x: mousePosition.x - 4,
           y: mousePosition.y - 4,
           scale: isHovering ? 4 : 1,
-          backgroundColor: isHovering ? '#fff' : '#3b82f6',
+          backgroundColor: isHovering ? '#fff' : '#10b981',
         }}
         transition={{ type: 'spring', stiffness: 1200, damping: 35, mass: 0.2 }}
       />

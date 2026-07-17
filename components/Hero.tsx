@@ -69,26 +69,26 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center bg-slate-950 text-white overflow-x-hidden pt-32 pb-20"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-50 via-white to-teal-50 text-gray-900 overflow-x-hidden pt-32 pb-20"
       id="home"
     >
       {/* Background Gradient Blobs */}
       <motion.div
-        className="absolute top-1/4 left-1/4 w-[50vw] h-[50vw] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none mix-blend-screen"
+        className="absolute top-1/4 left-1/4 w-[50vw] h-[50vw] bg-emerald-400/20 rounded-full blur-[120px] pointer-events-none mix-blend-screen"
         animate={{ x: [0, 100, 0], y: [0, -50, 0], scale: [1, 1.1, 1] }}
         transition={{ duration: 15, repeat: Infinity, ease: 'easeInOut' }}
       />
       <motion.div
-        className="absolute bottom-1/4 right-1/4 w-[40vw] h-[40vw] bg-purple-600/20 rounded-full blur-[100px] pointer-events-none mix-blend-screen"
+        className="absolute bottom-1/4 right-1/4 w-[40vw] h-[40vw] bg-teal-400/20 rounded-full blur-[100px] pointer-events-none mix-blend-screen"
         animate={{ x: [0, -80, 0], y: [0, 60, 0], scale: [1, 1.2, 1] }}
         transition={{ duration: 18, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
       />
 
       {/* Sidebar Socials */}
-      <div className="hidden md:flex absolute left-6 md:left-10 flex-col gap-6 text-gray-400 z-50 hero-socials">
+      <div className="hidden md:flex absolute left-6 md:left-10 flex-col gap-6 text-gray-500 z-50 hero-socials">
         <Magnetic>
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=61584454260870" className="p-2 block" rel="noopener noreferrer">
-            <FaFacebook className="hover:text-blue-500 cursor-pointer text-2xl transition-colors" />
+          <a target="_blank" href="https://www.facebook.com/mustakrazz707172" className="p-2 block" rel="noopener noreferrer">
+            <FaFacebook className="hover:text-emerald-600 cursor-pointer text-2xl transition-colors" />
           </a>
         </Magnetic>
         {/* <Magnetic>
@@ -109,22 +109,22 @@ export default function Hero() {
       >
         {/* Left Content */}
         <div className="space-y-6">
-          <p className="text-xl hero-subtitle text-blue-400 font-medium">Hey, I&apos;m</p>
-          <h1 ref={textRef} className="text-4xl md:text-7xl font-bold tracking-tight">
-            Fardin Khan👋
+          <p className="text-xl hero-subtitle text-emerald-600 font-medium">Hey, I&apos;m</p>
+          <h1 ref={textRef} className="text-4xl md:text-7xl font-bold tracking-tight text-gray-900">
+            Mustakim👋
           </h1>
-          <p className="text-2xl text-gray-300 hero-subtitle">I am a Digital Marketing Expert</p>
-          <p ref={descRef} className="text-gray-400 max-w-sm leading-relaxed text-lg">
+          <p className="text-2xl text-gray-700 hero-subtitle">I am a Digital Marketing Expert</p>
+          <p ref={descRef} className="text-gray-600 max-w-sm leading-relaxed text-lg">
             🚀 Turning ideas into stunning interactive experiences 💻 | Available for freelance
             projects 🌟
           </p>
           <div className="hero-btn pt-8 relative z-20">
             <Magnetic>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=kouserk219@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to= mm4022139@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.6)]"
+                className="inline-flex items-center justify-center px-8 py-3 bg-emerald-600 text-white font-bold rounded-full hover:bg-emerald-700 transition-colors duration-300 shadow-[0_0_20px_rgba(5,150,105,0.3)] hover:shadow-[0_0_30px_rgba(5,150,105,0.6)]"
               >
                 Say Hello
               </a>
@@ -140,13 +140,13 @@ export default function Hero() {
             transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
           >
             {/* Glowing Rings */}
-            <div className="absolute inset-0 rounded-full border border-blue-500/30 animate-[spin_10s_linear_infinite]" />
-            <div className="absolute inset-2 rounded-full border border-purple-500/20 animate-[spin_15s_linear_infinite_reverse]" />
-            <div className="w-full h-full rounded-full bg-gradient-to-tr from-blue-900/50 to-purple-900/50 p-2 backdrop-blur-sm border border-white/10 shadow-2xl">
-              <div className="w-full h-full bg-slate-950 rounded-full overflow-hidden">
+            <div className="absolute inset-0 rounded-full border border-emerald-400/30 animate-[spin_10s_linear_infinite]" />
+            <div className="absolute inset-2 rounded-full border border-teal-400/20 animate-[spin_15s_linear_infinite_reverse]" />
+            <div className="w-full h-full rounded-full bg-gradient-to-tr from-emerald-200/30 to-teal-200/20 p-2 backdrop-blur-sm border border-emerald-300/40 shadow-2xl">
+              <div className="w-full h-full bg-white rounded-full overflow-hidden">
                 <img
-                  src="/fardin_portfolio.png"
-                  alt="Fardin Khan Kauser"
+                  src="/mustakim_portfolio.png"
+                  alt="Mustakim"
                   className="w-full h-full object-cover scale-110"
                 />
               </div>

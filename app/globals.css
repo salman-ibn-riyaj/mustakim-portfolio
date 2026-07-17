@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  background-color: #020617;
-  color: white;
+  background-color: #f0f9f4;
+  color: #1f2937;
   overflow-x: hidden;
   cursor: none;
 }
@@ -60,20 +60,20 @@ html.lenis {
 }
 
 ::-webkit-scrollbar-track {
-  background: #020617;
+  background: #f0f9f4;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3b82f6;
+  background: #10b981;
   border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: #059669;
 }
 
 /* Selection */
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
-  color: white;
+  background: rgba(16, 185, 129, 0.3);
+  color: #1f2937;
 }

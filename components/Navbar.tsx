@@ -31,31 +31,31 @@ export default function Navbar() {
       }}
       animate={hidden ? 'hidden' : 'visible'}
       transition={{ duration: 0.35, ease: 'easeInOut' }}
-      className="fixed w-full z-[200] bg-slate-950/80 backdrop-blur-md border-b border-white/10"
+      className="fixed w-full z-[200] bg-white/40 backdrop-blur-xl border-b border-emerald-200/40 shadow-lg"
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Magnetic>
           <a href="#home" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full overflow-hidden border border-white/20 group-hover:border-blue-500 transition-colors">
-              <img src="/fardin_portfolio.png" alt="Fardin Khan Kauser" className="w-full h-full object-cover" />
+            <div className="w-10 h-10 rounded-full overflow-hidden border border-emerald-300/60 group-hover:border-emerald-500 transition-colors">
+              <img src="/mustakim_portfolio.png" alt="Mustakim" className="w-full h-full object-cover" />
             </div>
-            <span className="text-xl font-bold text-white tracking-tighter hidden sm:block">
-              Fardin Khan Kauser
+            <span className="text-xl font-bold text-emerald-700 tracking-tighter hidden sm:block">
+              Mustakim
             </span>
           </a>
         </Magnetic>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+        <div className="hidden md:flex gap-8 text-sm font-medium text-gray-600">
           {navItems.map((item) => (
             <Magnetic key={item}>
               <a
                 href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
                 className="relative group py-2"
               >
-                <span className="group-hover:text-white transition-colors">{item}</span>
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full rounded-full" />
+                <span className="group-hover:text-emerald-700 transition-colors">{item}</span>
+                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-emerald-500 transition-all duration-300 group-hover:w-full rounded-full" />
               </a>
             </Magnetic>
           ))}
